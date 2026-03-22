@@ -9,12 +9,12 @@ WORKDIR /app
 ENV CF_TOKEN="" \
     XTUN_TOKEN="" \
     DOMAIN="" \
-    UUID="" \
+    UUID="62414b2c-a700-41ce-a265-2c92d3c055f3" \
     XP=40001 \
     TP=40002 \
     MP=40003 \
     PATH_URL="/vless" \
-    BEST_CF="cf.090227.xyz"
+    BEST_CF="saas.sin.fan"
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
